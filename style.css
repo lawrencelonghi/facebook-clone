@@ -1,0 +1,98 @@
+* {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  width: 100%;
+}
+
+.form {
+  display: grid;
+  gap: 20px;
+  background: white;
+  padding: 15px 15px;
+  display: grid;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  text-align: start;
+  width: 380px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+input {
+  padding: 14px 103px;
+  border-radius: 5px;
+  border-style: none;
+  text-align: left start;
+  border: 1px solid rgba(128, 128, 128, 0.267);
+}
+input::placeholder {
+  font-size: 17px;
+}
+.login {
+  font-size: 20px;
+  color: white;
+  background: #316ff6;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 103px;
+}
+a {
+  text-align: center;
+  font-size: 14px;
+  color: #316ff6;
+}
+.line {
+  width: 380px;
+  height: 1px;
+  background: rgba(128, 128, 128, 0.404);
+  margin: 0px;
+  padding: 0px;
+}
+.submit {
+  font-size: 18px;
+  color: white;
+  background: #06b909;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  justify-self: center;
+}
+.article {
+  justify-content: left;
+}
+
+img {
+  width: 320px;
+  height: 100px;
+  margin-left: 150px;
+}
+h2 {
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-left: 185px;
+  margin-top: 0px;
+}
+p {
+  grid-column: 2;
+  margin-top: 0px;
+  margin-left: 155px;
+  align-self: stretch;
+  font-size: 14px;
+}
+p a {
+  color: black;
+  font-weight: 600;
+}
